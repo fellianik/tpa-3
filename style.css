@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body {
+    background-color: #212529 !important;
+}
+
+header {
+    border-bottom: 1px solid white;
+}
+
+section {
+    padding: 0 50px;
+}
+
+#text-search {
+    margin: 10px;
+}
+
+#containers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    /* padding: 1px auto; */
+    /* text-align: center; */
+    border-top: 1px solid white;
+}
+
+@media only screen and (max-width: 375px) {
+    #search-form {
+        width: 70%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
