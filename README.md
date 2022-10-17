@@ -6,3 +6,5 @@ Program using:
 -   Bootstrap
 
 Deploy on Netlify: https://fellianik-movieapp.netlify.app/
+
+By: Felli
